@@ -3,7 +3,7 @@
 #include <vector>
 #include <mutex>
 using namespace std;
-
+//Class for the simulation of motor
 class Motor
 {
 public:
@@ -28,7 +28,6 @@ public:
 	void printParametres(); //For checking
 	//Motor simulation process
 	void simulation(double environmentT);
-	//int simulation(double environmentT);
 
 private:
 	const double eps = 0.000000001;
